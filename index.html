@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="images/logo_icon2.png"/>
+
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style_home.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200&display=swap" rel="stylesheet">
+    <title>Yanbo's Vcations</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZM096YVZD"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ZZM096YVZD');
+    </script>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <header>
+    <img src="images/portfolio_logo.png" alt="logo" id = "logo">
+    <nav>
+        <ul class="nav_links">
+        <li class="nav_item"><a href="#skip">Home</a></li>
+        <li class="nav_item"><a href="china.html">China</a></li>
+        <li class="nav_item"><a href="california.html">California</a></li>
+        <li class="nav_item"><a href="nyc.html">New York City</a></li>
+        </ul>
+    </nav>
+</header>
+<main class="about" id="skip" tabindex="0">
+    <div class = "title_container">
+    <!-- <h1>Yanbo's Vacations</h1>
+    <p>Welcom to my vacations home page. I will share some vacation photos with the introduction.</p> -->
+    </div>
+
+    <div class = "title_text">
+    <h1>Yanbo's Vacations</h1>
+    <p>Welcom to my vacations home page. I will share some vacation photos with the introduction.</p>
+    </div>
+
+    <!-- ------------------------slidesshow-------------------------------- -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="images/home1.jpeg" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/home2.jpeg" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/home3.jpeg" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/home6.jpeg" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/home7.jpeg" alt="">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/home9.jpeg" alt="">
+        </div>
+    </div>
+    <!-- ------------------------slidesshow-------------------------------- -->
+
+    <div class="container">
+        <img id="image1" src="images/home1.jpeg" alt="" />
+        <img id="image2" src="images/home2.jpeg" alt="" />
+        <img id="image3" src="images/home3.jpeg" alt="" />
+        <img id="image4" src="images/home4.jpeg" alt="" />
+        <img id="image5" src="images/home5.jpeg" alt="" />
+        <img id="image6" src="images/home6.jpeg" alt="" />
+        <img id="image7" src="images/home7.jpeg" alt="" />
+        <img id="image8" src="images/home8.jpeg" alt="" />
+        <img id="image9" src="images/home9.jpeg" alt="" />
+    </div>
+
+<!------------------------ popup window  -------------------------->
+<div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <!-- <span class="close">Close</span> -->
+    <img class="modal-content" id="img01" alt="">
+</div>
+
+<!-------------------------popup window  ----------------------------->
+
+
+
+
+    <!-- -------------------------------------form----------------------------------------- -->
+    <div class = "feedback_form">
+        <form action="https://formspree.io/f/mzbkavjl" method="POST">
+
+            <fieldset>
+              <legend>Your Feedback</legend>
+          
+              <label for = "name_id">Name:</label>
+              <input type="text" placeholder="Enter Your Name" name = 'Name' id = "name_id" required>
+          
+              
+              <label for = "email_id">Email:</label>
+              <input type="email" placeholder="Enter Your Email" name = 'Email' id = "email_id" required>
+          
+          
+              <label for = "phone_id">Phone Number:</label>
+              <input type="tel" placeholder="Format: 123-456-7890" name = 'telephone' id = "phone_id" 
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+          
+          
+              <label for="massage_id">Leave A Message</label>
+              <textarea placeholder="Enter your message" name = 'Message' id = 'massage_id' required></textarea><br>
+    
+              <input type="submit" value = 'Send me your message'>
+            </fieldset>
+           </form>
+    </div>
+    <script src = "js/home.js"></script>
+</main>
+
+    <footer>
+    <p>University of Michigan School of Information <br/>
+        &copy; Yanbo Shi - Design of Complex Websites (SI 539): Final Portfolio</p>
+    </footer>
+</body>
+</html>
